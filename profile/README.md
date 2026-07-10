@@ -2,6 +2,13 @@
 
 # slopstopper
 
+```
+coherent    ≠  correct
+completed   ≠  checked
+confident   ≠  provenance
+works       ≠  right effect
+```
+
 Coherent doesn't mean it's correct.
 Saying it's completed doesn't always mean it's been checked.
 Confidence doesn't mean it has provenance.
