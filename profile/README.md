@@ -71,12 +71,12 @@ When fluent tools meet real work:
 
 | Risk | How it arrives |
 |---|---|
-| **Laundered uncertainty** | A mock value becomes a number, the number becomes a dashboard, the dashboard becomes a decision. Nobody lied; the confidence label just fell off in transit. |
-| **Self-graded homework** | The system that produced the claim is the system that assures you it's fine. |
-| **Prose-ledger rot** | Work state kept in documents merges as text, loses rows silently, and drifts from reality the day it's written. The doc stays confident throughout. |
-| **Silent deferral** | "Later" without a record isn't a plan, it's a deletion with a delay. |
-| **Economics slop** | The expensive model doing work the cheap one could, or the cheap one doing work it can't, which costs more, twice. |
-| **Overstated maturity** | Everything is "production-ready" now. Including this table. |
+| **Laundered uncertainty** | A mock value gets used as if it were measured. It ends up in a dashboard, then a decision, and nothing along the way marks it as a guess. |
+| **Self-graded homework** | The tool that made the claim is the same tool that checks it. |
+| **Prose-ledger rot** | Work tracked in a document drifts from reality almost immediately. Merges drop rows and the file still reads fine. |
+| **Silent deferral** | A "later" that isn't written down anywhere usually just doesn't happen. |
+| **Economics slop** | An expensive model running work a cheap one could do, or a cheap one running work it can't and having to redo it. |
+| **Overstated maturity** | Everything gets called "production-ready," including things that aren't. |
 
 ## Install
 
