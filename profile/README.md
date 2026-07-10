@@ -7,18 +7,18 @@ Saying it's completed doesn't always mean it's been checked.
 Confidence doesn't mean it has provenance.
 It looks like it works — but does it have the right effect?
 
-Slop is the gap those four lines point at: output that's fluent, plausible,
-and confident, but unmoored from anything that checked it. Not wrongness —
-wrongness is cheap to catch. This is coherence without provenance: text that
-sounds finished, numbers that look measured, plans that read as decided,
-produced at zero marginal cost by tools paid to sound sure.
+**Slop**: output that's fluent, plausible, and confident — and unmoored from
+anything that checked it. Not wrongness; wrongness is cheap to catch.
+Coherence without provenance: text that sounds finished, numbers that look
+measured, plans that read as decided, produced at zero marginal cost by tools
+paid to sound sure.
 
 Coherence used to be a signal. If a document held together, someone had
 probably thought about it. Generative tools broke that — holding together is
 now the default texture of everything, including nonsense.
 
-slopstopper is a workshop of instruments that make the gap measurable,
-enforced by machines rather than vibes. Each works alone.
+slopstopper is a workshop of instruments against it, enforced by machines,
+not vibes. Each works alone.
 
 ```
 /plugin marketplace add slopstopper/marketplace
@@ -26,8 +26,7 @@ enforced by machines rather than vibes. Each works alone.
 
 ## The bench
 
-Instruments currently trued and in use. Each answers one question and
-completes one phrase — *measures ___*.
+Trued and in use:
 
 | instrument | measures | in one line |
 |---|---|---|
@@ -40,12 +39,11 @@ location of state. Where they meet, the vocabulary is pinned in the
 [shared marketplace](https://github.com/slopstopper/marketplace) so the same
 word can't mean three things.
 
-The bench is meant to fill. Hooks are left empty on purpose.
+The bench is meant to fill.
 
 ## The calibration
 
-The reference every instrument on this bench is trued against — the spec a
-new one has to meet before it earns a hook:
+The spec every instrument here is trued against:
 
 - **Record first, compare after.** Interpretation is a privilege the data
   has to earn.
@@ -72,8 +70,7 @@ states it, the discipline is wrong — fix the rule, not the record.
 
 ## The risk register
 
-What goes wrong when fluent tools meet real work — the failures the bench
-exists to catch:
+What goes wrong when fluent tools meet real work:
 
 | Risk | How it arrives |
 |---|---|
