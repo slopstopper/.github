@@ -6,8 +6,11 @@
 </picture>
 
 Coherent doesn't mean it's correct.
+
 Saying it's completed doesn't always mean it's been checked.
+
 Confidence doesn't mean it has provenance.
+
 It looks like it works — but does it have the right effect?
 
 **Slop**: fluent, plausible, confident output, unmoored from anything that
