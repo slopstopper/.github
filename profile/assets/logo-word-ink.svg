@@ -1,8 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="72.0 184.0 722.2 170.0" width="722" height="170">
-<g transform="translate(90,110)"><text x="0" y="200" font-size="120" font-family="Arial, Helvetica, 'DejaVu Sans', sans-serif" font-weight="800" letter-spacing="-3" fill="#17171a">sl</text>
-    <g transform="translate(82.67089608433736,97.9277108433735) scale(1.2433734939759036)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="72.0 254.0 723.7 170.0" width="724" height="170">
+<g transform="translate(90,160)"><text x="0" y="220" font-size="120" font-family="Arial, Helvetica, 'DejaVu Sans', sans-serif" font-weight="800" letter-spacing="-3" fill="#17171a">s</text><g class="g" transform="translate(58.38427931482531,144.71584926393157) scale(0.7681429953696214)">
   <rect x="14" y="40" width="72" height="11" rx="5.5" fill="#17171a"/>
   <rect x="14" y="63" width="72" height="11" rx="5.5" fill="#17171a"/>
-  <rect x="42" y="12" width="16" height="90" rx="8" transform="rotate(24 50 57)" fill="#d1553f"/></g>
-    <text x="195.60101656626506" y="200" font-size="120" font-family="Arial, Helvetica, 'DejaVu Sans', sans-serif" font-weight="800" letter-spacing="-3" fill="#17171a">pstopper</text></g>
+  <rect x="42" y="-2" width="16" height="116" rx="8" transform="rotate(24 50 57)" fill="#d1553f"/></g><text x="126.8" y="220" font-size="120" font-family="Arial, Helvetica, 'DejaVu Sans', sans-serif" font-weight="800" letter-spacing="-3" fill="#17171a">opstopper</text></g>
 </svg>
