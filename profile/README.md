@@ -1,8 +1,8 @@
 <!-- slopstopper · coherent doesn't mean correct -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/logo-word-light.png">
-  <img alt="slopstopper" src="assets/logo-word-ink.png" width="380">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/slopstopper/.github/main/profile/assets/logo-word-light.png">
+  <img alt="slopstopper" src="https://raw.githubusercontent.com/slopstopper/.github/main/profile/assets/logo-word-ink.png" width="380">
 </picture>
 
 Coherent doesn't mean it's correct.
