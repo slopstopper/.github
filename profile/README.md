@@ -1,13 +1,9 @@
 <!-- slopstopper · coherent doesn't mean correct -->
 
-# slopstopper
-
-```
-coherent    ≠  correct
-completed   ≠  checked
-confident   ≠  provenance
-works       ≠  right effect
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/logo-word-light.png">
+  <img alt="slopstopper" src="assets/logo-word-ink.png" width="380">
+</picture>
 
 Coherent doesn't mean it's correct.
 Saying it's completed doesn't always mean it's been checked.
