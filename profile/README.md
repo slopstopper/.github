@@ -22,7 +22,8 @@ Coherence used to be a signal. If a document held together, someone had
 probably thought about it. Generative tools broke that. Now everything holds
 together, including nonsense.
 
-slopstopper is a set of tools that catch slop in code. Each works alone.
+slopstopper is a set of tools that catch slop in code. Each stands alone, and
+any combination of them works together as one system.
 
 ```
 /plugin marketplace add slopstopper/marketplace
@@ -91,8 +92,7 @@ When fluent tools meet real work:
 /plugin marketplace add slopstopper/marketplace
 ```
 
-then `/plugin install` the tools you want. Each works alone; none needs its
-siblings.
+then `/plugin install` any combination you want.
 
 ## Status
 
