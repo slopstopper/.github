@@ -5,13 +5,10 @@
   <img alt="slopstopper" src="https://raw.githubusercontent.com/slopstopper/.github/main/profile/assets/logo-word-ink.png" width="380">
 </picture>
 
-Coherent doesn't mean it's correct.
-
-Saying it's completed doesn't always mean it's been checked.
-
-Confidence doesn't mean it has provenance.
-
-It looks like it works — but does it have the right effect?
+> *Coherent doesn't mean it's correct.*<br>
+> *Saying it's completed doesn't always mean it's been checked.*<br>
+> *Confidence doesn't mean it has provenance.*<br>
+> *It looks like it works — but does it have the right effect?*
 
 **Slop**: fluent, plausible, confident output, unmoored from anything that
 checked it. Coherence without provenance: sounds finished, looks measured,
@@ -44,24 +41,6 @@ location of state. Shared vocabulary is pinned in the
 mean three things.
 
 More will follow.
-
-## The rules
-
-What every tool here is held to:
-
-- **Record first, compare after.** Interpretation is a privilege the data
-  has to earn.
-- **"We don't know yet" is a shippable answer.** A null result is a
-  first-class outcome.
-- **Every claim carries its provenance, or it's a rumour.** Mock, derived,
-  measured, asserted: the label travels with the value.
-- **State lives where it's queryable, not where it merges.**
-- **Deferral requires a record.** Aging must be measurable or the deferral
-  didn't happen.
-- **Honest denominators.** A report says what it didn't read. A sweep that
-  exempts itself is lying about its coverage.
-- **Boundaries checked by tooling.** Discipline that depends on remembering
-  is a bug that hasn't fired yet.
 
 ## Applied to itself
 
