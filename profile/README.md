@@ -14,9 +14,7 @@
 checked it. Coherence without provenance: sounds finished, looks measured,
 reads as decided.
 
-Coherence used to be a signal. If a document held together, someone had
-probably thought about it. Generative tools broke that. Now everything holds
-together, including nonsense.
+Coherence used to mean something. If something held together, it meant a someone had thought about it and understood it. Now with generative tools anything can look coherent, polished and confident while remaining completely untethered to reality. Everything 'looks right' including complete and utter nonsense. 
 
 slopstopper is a set of tools that catch slop in code. Each stands alone, and
 any combination of them works together as one system.
