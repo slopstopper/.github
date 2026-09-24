@@ -1,4 +1,4 @@
-<!-- slopstopper · coherent doesn't mean correct -->
+<!-- slopstopper · coherent doesn't mean correct · mirrors https://slopstopper.org -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/slopstopper/.github/main/profile/assets/logo-word-light.png">
@@ -10,71 +10,74 @@
 > *Confidence doesn't mean it has provenance.*<br>
 > *It looks like it works — but does it have the right effect?*
 
-**Slop**: fluent, plausible, confident output, unmoored from anything that
-checked it. Coherence without provenance: sounds finished, looks measured,
-reads as decided.
-
-Coherence used to mean something. If something held together, it meant a someone had thought about it and understood it. Now with generative tools anything can look coherent, polished and confident while remaining completely untethered to reality. Everything 'looks right' including complete and utter nonsense. 
-
-slopstopper is a set of tools that catch slop in code. Each stands alone, and
-any combination of them works together as one system.
+slopstopper is a set of tools for checking what generative systems produce.
+Each works on its own; together they work as one system.
 
 ```
 /plugin marketplace add slopstopper/marketplace
 ```
 
-## The tools
+**[slopstopper.org →](https://slopstopper.org)**
 
-In use:
+## The problem
 
-| tool | measures | in one line |
-|---|---|---|
-| [**plumb-line**](https://github.com/slopstopper/plumb-line) | whether claims are honest | provenance primitives (JS + Python) plus skills that audit for laundered uncertainty, and refuse to launder it back out during the fix. |
-| [**tokenomics**](https://github.com/slopstopper/tokenomics) | which model should do the work | route work to the cheapest capable tier, name your own lanes (no defaults shipped), carry strategy across sessions in a playbook of reusable method. |
-| [**recursive-spine**](https://github.com/slopstopper/recursive-spine) | where tracked state lives | GitHub issues + milestones as the only home of work state; skills to teach, stamp, migrate, and digest it. Its own tracker existed before its first commit. |
+**Slop used to be obvious.** It has not disappeared, it just got better at
+disguising itself. You can no longer tell just by looking at something what
+parts have been checked and what parts got filled in with an articulate
+guess. It all reads the same regardless.
 
-Three concerns that don't overlap: honesty of claims, economics of effort,
-location of state. Shared vocabulary is pinned in the
-[marketplace](https://github.com/slopstopper/marketplace) so one word can't
-mean three things.
+Now with generative tools anything can look coherent, polished and confident
+while remaining completely untethered to reality.
 
-More will follow.
+## What slop do they stop?
+
+One tool for each.
+
+| | tool | stops | how |
+|---|---|---|---|
+| 01 / honesty | [**plumb-line**](https://slopstopper.org/plumb-line/) | **a guess used as if it were measured** | A mock value ends up in a dashboard, then a decision, and nothing along the way marks it as a guess. plumb-line labels each value with where it came from and keeps the label attached through every derivation, and its review-time checks catch the places where that already went wrong. |
+| 02 / economics | [**tokenomics**](https://github.com/slopstopper/tokenomics) | **the wrong model doing the work** | An expensive model running work a cheap one could do, or a cheap one running work it can't and having to redo it. tokenomics routes work to the cheapest tier that can actually do it, in lanes you name, and a living playbook carries what you worked out into the next session. |
+| 03 / state | [**recursive-spine**](https://github.com/slopstopper/recursive-spine) | **a record that drifts from reality** | Work tracked in a document drifts almost immediately, and a "later" that isn't written down doesn't happen. recursive-spine keeps work state in GitHub issues and milestones, where it stays queryable, and ages deferrals so they surface before they rot. |
+
+Put tokenomics and recursive-spine together and the routing is logged in
+issues and milestones instead of sitting in a playbook. The shared vocabulary
+is pinned in the
+[marketplace](https://github.com/slopstopper/marketplace/blob/main/docs/shared-vocabulary.md):
+one owner per term.
 
 ## Applied to itself
 
-plumb-line's audit skill was run against plumb-line and produced a
-remediation plan it then had to survive. recursive-spine's issues and
-milestones existed before its first commit, its labels were stamped by its
-own bootstrap, and its own deferrals age on its own digest. If a discipline
-is too heavy to follow while building the tool that states it, the discipline
-is wrong. Change the rule and leave the record alone.
+**Every tool is run on itself.** None of these ask of you a standard they
+don't meet. Each is turned on its own repository and has to survive the
+result.
 
-## What goes wrong
+- ↺ **plumb-line** — its auditor runs on its own code before every release,
+  and the dogfood report keeps what it finds.
+- ↺ **tokenomics** — it runs on its own build: a dogfooded playbook and a
+  spend ledger that makes its savings claims checkable.
+- ↺ **recursive-spine** — its issues and milestones existed before its first
+  commit, and its deferrals age on its own digest.
 
-When fluent tools meet real work:
-
-| Risk | How it arrives |
-|---|---|
-| **Laundered uncertainty** | A mock value gets used as if it were measured. It ends up in a dashboard, then a decision, and nothing along the way marks it as a guess. |
-| **Self-graded homework** | The tool that made the claim is the same tool that checks it. |
-| **Prose-ledger rot** | Work tracked in a document drifts from reality almost immediately. Merges drop rows and the file still reads fine. |
-| **Silent deferral** | A "later" that isn't written down anywhere usually just doesn't happen. |
-| **Economics slop** | An expensive model running work a cheap one could do, or a cheap one running work it can't and having to redo it. |
-| **Overstated maturity** | Everything gets called "production-ready," including things that aren't. |
+If we cannot follow a rule while building the tool that asks you to follow
+it, the rule has failed its own test and we rewrite it. The record of where
+it broke stays, because editing it afterwards would be the failure this is
+meant to catch.
 
 ## Install
 
+From inside Claude Code:
+
 ```
 /plugin marketplace add slopstopper/marketplace
+/plugin install plumb-line@slopstopper
+/plugin install tokenomics@slopstopper
+/plugin install recursive-spine@slopstopper
 ```
 
-then `/plugin install` any combination you want.
+Prefer to read first? Start with the
+[plumb-line page](https://slopstopper.org/plumb-line/).
 
-## Status
+## Status, honestly
 
-From live practice in a few real projects, written up as practice reports.
-We would love to tell you these tools are battle-tested; our own CI fails any
-README containing that phrase.
-
-None of this stops you from shipping slop. It makes it visible, attributable,
-and slightly embarrassing.
+None of this stops you from shipping slop. It just makes it visible,
+attributable, and slightly embarrassing.
